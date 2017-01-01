@@ -1,0 +1,23 @@
+{
+  "name": "webpack-scss-sandbox",
+  "version": "1.0.0",
+  "description": "Webpack and sass working together.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --port 3000 --colors",
+    "postinstall": "webpack"
+  },
+  "keywords": ["webpack", "sass", "bootstrap 3"],
+  "author": "Jason Whitaker <jason@thewhitakers.ca>",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.1.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
